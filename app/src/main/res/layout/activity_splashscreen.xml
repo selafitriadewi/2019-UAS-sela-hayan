@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.alfianyusufabdullah.alquranq.presentation.splashscreen.SplashscreenActivity">
+    android:background="#03A9F4"
+    tools:context="presentation.splashscreen.SplashscreenActivity">
 
     <ImageView
         android:layout_width="150dp"

@@ -4,15 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#3F51B5"
-    tools:context=".presentation.splashscreen.SplashscreenActivity">
+    tools:context="com.alfianyusufabdullah.alquranq.presentation.splashscreen.SplashscreenActivity">
 
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_centerInParent="true"
-        app:srcCompat="@drawable/ic_book"
-        tools:ignore="VectorDrawableCompat" />
+        app:srcCompat="@drawable/ic_book" />
 
     <LinearLayout
         android:id="@+id/layoutLoadingInfo"

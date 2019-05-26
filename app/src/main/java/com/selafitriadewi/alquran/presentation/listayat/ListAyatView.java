@@ -1,4 +1,7 @@
 package com.selafitriadewi.alquran.presentation.listayat;
 
-public class ListAyatView {
+import com.selafitriadewi.alquran.base.BaseView;
+import com.selafitriadewi.alquran.model.Ayat;
+
+interface ListAyatView extends BaseView<Ayat> {
 }
